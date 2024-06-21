@@ -203,3 +203,29 @@ nav.close ~ .dashboard .top {
   gap: 10px;
   padding-top: 15px;
 }
+table {
+  border-collapse: collapse;
+  width: 100%;
+  text-align: center;
+}
+th,
+td {
+  height: 40px;
+  /* border: 1px solid #f80808d3; */
+}
+span {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  gap: 50px;
+  padding: 10px 0;
+}
+.green {
+  color: rgb(34, 236, 34);
+}
+.red {
+  color: red;
+}
+.bg_tbody {
+  background-color: #f7f9fa;
+}

@@ -208,3 +208,73 @@ nav.close ~ .dashboard .top {
   gap: 10px;
   padding-top: 15px;
 }
+table {
+  border-collapse: collapse;
+  width: 100%;
+  text-align: center;
+  border: 1px solid rgba(223, 224, 235, 1);
+}
+th,
+td {
+  padding-left: 20px;
+  height: 40px;
+  border-bottom: 1px solid rgba(223, 224, 235, 1);
+}
+span {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  gap: 50px;
+  padding: 10px 0;
+}
+.green {
+  color: rgb(34, 236, 34);
+}
+.hige {
+  width: 54px;
+  height: 24px;
+  text-transform: uppercase;
+  background-color: red;
+  border-radius: 25px;
+  color: #ffff;
+}
+.yellow {
+  width: 54px;
+  height: 24px;
+  text-transform: uppercase;
+  background-color: yellow;
+  border-radius: 25px;
+  color: black;
+}
+.green {
+  width: 74px;
+  height: 24px;
+  text-transform: uppercase;
+  background-color: rgb(15, 228, 33);
+  border-radius: 25px;
+  color: #ffff;
+}
+.red {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 72px;
+  height: 99px;
+}
+.text.sav {
+  font-family: Mulish;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: left;
+}
+.text_span {
+  font-size: 12px;
+  font-weight: 400;
+  color: rgba(197, 199, 205, 1);
+  margin-top: -15px;
+}
+th {
+  text-align: left;
+}
