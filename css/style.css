@@ -229,3 +229,9 @@ span {
 .bg_tbody {
   background-color: #f7f9fa;
 }
+.bg_color {
+  background: #3f414a;
+}
+.link-namecolor {
+  color: white;
+}
